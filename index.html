@@ -39,7 +39,7 @@
 
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 24px;
     }
 
@@ -91,6 +91,20 @@
       color: #0b66c3;
       text-decoration: none;
       font-weight: bold;
+    }
+
+    .card-group {
+      margin-bottom: 36px;
+    }
+
+    .group-title {
+      margin-bottom: 18px;
+    }
+
+    .group-title h2 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: #17202a;
     }
 
     .links a:hover {
@@ -187,7 +201,9 @@
   </header>
 
   <main>
-    <section class="grid">
+    <section class="card-group">
+      <div class="group-title"><h2>Earth Observation</h2></div>
+      <div class="grid">
 
       <article class="card">
         <img src="images/randomforest.jpg" alt="Earth Observation: Supervised classification to calculate burned area">
@@ -262,6 +278,72 @@
       </article>
 
       <article class="card">
+        <img src="images/marmenor.jpg" alt="Can cells be captured on a map?">
+        <div class="card-content">
+          <h2>Can cells be captured on a map?</h2>
+          <p>Cartographic exploration about capturing and representing cells on maps.</p>
+
+          <div class="tags">
+            <span class="tag">Map</span>
+            <span class="tag">30DayMapChallenge</span>
+            <span class="tag">Cartography</span>
+          </div>
+
+          <div class="links">
+            <a href="https://www.linkedin.com/posts/antoniojaviersoto_30daymapchallenge-raster-30daymapchallenge-activity-7400455446899343360-M2mR?utm_source=share&utm_medium=member_desktop&rcm=ACoAABQRoBMBYb1IpBDwG6XgAlEgYxf8ct02OHM" target="_blank">View project</a>
+          </div>
+        </div>
+      </article>
+      </div>
+    </section>
+
+    <section class="card-group">
+      <div class="group-title"><h2>GIS Analysis</h2></div>
+      <div class="grid">
+
+      <article class="card">
+        <img src="images/coste.jpg" alt="Tool to calculate travel cost in peatlands">
+        <div class="card-content">
+          <h2>Tool to calculate travel cost in peatlands</h2>
+          <p>Calculation of travel cost in peatland areas using accessibility models.</p>
+
+          <div class="tags">
+            <span class="tag">Peatlands</span>
+            <span class="tag">Cost</span>
+            <span class="tag">GIS</span>
+          </div>
+
+          <div class="links">
+            <a href="https://www.linkedin.com/posts/antoniojaviersoto_cell-30daymapchallenge-30mapasgeoinnova-activity-7395747469273358336-oH-T?utm_source=share&utm_medium=member_desktop&rcm=ACoAABQRoBMBYb1IpBDwG6XgAlEgYxf8ct02OHM" target="_blank">View project</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="images/heat.jpg" alt="Where UK Heated Up: June 2025 vs. 24-Year Baseline">
+        <div class="card-content">
+          <h2>Where UK Heated Up: June 2025 vs. 24-Year Baseline (2001-2024)</h2>
+          <p>Thermal analysis of the United Kingdom in June 2025 compared to the 2001–2024 baseline.</p>
+
+          <div class="tags">
+            <span class="tag">Climate</span>
+            <span class="tag">UK</span>
+            <span class="tag">Map Challenge</span>
+          </div>
+
+          <div class="links">
+            <a href="https://www.linkedin.com/posts/antoniojaviersoto_30daymapchallenge-raster-30daymapchallenge-activity-7400455446899343360-M2mR?utm_source=share&utm_medium=member_desktop&rcm=ACoAABQRoBMBYb1IpBDwG6XgAlEgYxf8ct02OHM" target="_blank">View project</a>
+          </div>
+        </div>
+      </article>
+      </div>
+    </section>
+
+    <section class="card-group">
+      <div class="group-title"><h2>LiDAR</h2></div>
+      <div class="grid">
+
+      <article class="card">
         <img src="images/arran.jpg" alt="3D LiDAR Viewer: Isle of Arran, Scotland">
         <div class="card-content">
           <h2>3D LiDAR Viewer: Isle of Arran, Scotland</h2>
@@ -298,6 +380,12 @@
           </div>
         </div>
       </article>
+      </div>
+    </section>
+
+    <section class="card-group">
+      <div class="group-title"><h2>ArcGIS Online</h2></div>
+      <div class="grid">
 
       <article class="card">
         <img src="images/peatlandaction.jpg" alt="Peatland ACTION Spatial Data Portal">
@@ -316,62 +404,9 @@
           </div>
         </div>
       </article>
-
-      <article class="card">
-        <img src="images/heat.jpg" alt="Where UK Heated Up: June 2025 vs. 24-Year Baseline">
-        <div class="card-content">
-          <h2>Where UK Heated Up: June 2025 vs. 24-Year Baseline (2001-2024)</h2>
-          <p>Thermal analysis of the United Kingdom in June 2025 compared to the 2001–2024 baseline.</p>
-
-          <div class="tags">
-            <span class="tag">Climate</span>
-            <span class="tag">UK</span>
-            <span class="tag">Map Challenge</span>
-          </div>
-
-          <div class="links">
-            <a href="https://www.linkedin.com/posts/antoniojaviersoto_30daymapchallenge-raster-30daymapchallenge-activity-7400455446899343360-M2mR?utm_source=share&utm_medium=member_desktop&rcm=ACoAABQRoBMBYb1IpBDwG6XgAlEgYxf8ct02OHM" target="_blank">View project</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="card">
-        <img src="images/marmenor.jpg" alt="Can cells be captured on a map?">
-        <div class="card-content">
-          <h2>Can cells be captured on a map?</h2>
-          <p>Cartographic exploration about capturing and representing cells on maps.</p>
-
-          <div class="tags">
-            <span class="tag">Map</span>
-            <span class="tag">30DayMapChallenge</span>
-            <span class="tag">Cartography</span>
-          </div>
-
-          <div class="links">
-            <a href="https://www.linkedin.com/posts/antoniojaviersoto_30daymapchallenge-raster-30daymapchallenge-activity-7400455446899343360-M2mR?utm_source=share&utm_medium=member_desktop&rcm=ACoAABQRoBMBYb1IpBDwG6XgAlEgYxf8ct02OHM" target="_blank">View project</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="card">
-        <img src="images/coste.jpg" alt="Tool to calculate travel cost in peatlands">
-        <div class="card-content">
-          <h2>Tool to calculate travel cost in peatlands</h2>
-          <p>Calculation of travel cost in peatland areas using accessibility models.</p>
-
-          <div class="tags">
-            <span class="tag">Peatlands</span>
-            <span class="tag">Cost</span>
-            <span class="tag">GIS</span>
-          </div>
-
-          <div class="links">
-            <a href="https://www.linkedin.com/posts/antoniojaviersoto_cell-30daymapchallenge-30mapasgeoinnova-activity-7395747469273358336-oH-T?utm_source=share&utm_medium=member_desktop&rcm=ACoAABQRoBMBYb1IpBDwG6XgAlEgYxf8ct02OHM" target="_blank">View project</a>
-          </div>
-        </div>
-      </article>
+      </div>
     </section>
-    
+
     <section class="articles">
       <h2>My Articles</h2>
       <ul class="article-list">
